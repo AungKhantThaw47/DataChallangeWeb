@@ -1,0 +1,170 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #D8D8D8;
+}
+
+.ClassNav {
+    position: fixed;
+    float: left;
+    height: 100%;
+    width: 6.25%;
+    background: #ffffff;
+}
+
+.Logo {
+    margin-left: 25%;
+    margin-top: 3.06%;
+    width: 50%;
+    height: 5.56%;
+}
+
+.ClassMain {
+    float: left;
+    margin-left: 6.25%;
+    height: 100%;
+    width: 93.75%;
+}
+
+.ClassByLocation {
+    width: 100%;
+    height: 65.97%;
+    padding-top: 7.37%;
+    padding-bottom: 7.37%;
+    /* background-color: blue; */
+}
+
+.ClassByMap {
+    float: left;
+    margin-left: 5%;
+    height: 85.26%;
+    width: 33.75%;
+    background-color: #ffffff;
+}
+
+.ClassByTowns {
+    float: left;
+    margin-left: 5.42%;
+    height: 85.26%;
+    width: 50.92%;
+    background-color: #ffffff;
+}
+
+.ClassByBefore {
+    width: 100%;
+    height: 74.44%;
+    padding-top: 4.1%;
+    padding-bottom: 3.36%;
+    padding-left: 5%;
+}
+
+.ClassByBeforeHeadText {
+    display: block;
+    height: 11.19%;
+    width: 33.75%;
+    background-color: #ffffff;
+}
+
+.ClassByBeforeMain {
+    margin-top: 5.78%;
+    height: 75.56%;
+    width: 90.08%;
+}
+
+.BeforeCovidChart {
+    float: left;
+    width: 82.52%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.BeforeCovidLabel {
+    float: left;
+    margin-left: 2.59%;
+    width: 14.89%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.ClassByAfter {
+    width: 100%;
+    height: 74.44%;
+    padding-top: 4.1%;
+    padding-bottom: 3.36%;
+    padding-left: 5%;
+}
+
+.ClassByOption {
+    width: 100%;
+    height: 74.44%;
+    padding-top: 4.1%;
+    padding-bottom: 3.36%;
+    padding-left: 5%;
+}
+
+.Options {
+    width: 90.08%;
+    height: 11.19%;
+}
+
+.ClassByOptionMain {
+    margin-top: 5.78%;
+    height: 75.56%;
+    width: 90.08%;
+}
+
+.StartDate {
+    float: left;
+    width: 27.8%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.EndDate {
+    margin-left: 5.19%;
+    float: left;
+    width: 27.8%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.ChooseTowns {
+    float: left;
+    margin-left: 5.19%;
+    width: 33.92%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.Shadow {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#BeforeCovidChartDiagram {}
+
+.chart-container {
+    width: 75%;
+    /* height: 50%; */
+}
+
+.LabelText {
+    flex: 1;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.BeforeCovidLabel {
+    display: flex;
+    flex-direction: column;
+}
+
+.TownLabels {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
